@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6066353055f9dccc8d94a9280a558b3a",
+    "content-hash": "b7cc806681b51e7e1a37cb5739224e65",
+    "packages": [
+        {
+            "name": "elpho/database",
+            "version": "0.1.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elpho/database.git",
+                "reference": "f2d52d9cf844771f69eda60ae0a09a0bde9baa2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elpho/database/zipball/f2d52d9cf844771f69eda60ae0a09a0bde9baa2d",
+                "reference": "f2d52d9cf844771f69eda60ae0a09a0bde9baa2d",
+                "shasum": ""
+            },
+            "require": {
+                "elpho/event": "0.1.*",
+                "elpho/lang": "0.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "elpho\\database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "ORM for the elpho framework",
+            "time": "2016-10-10 13:33:35"
+        },
+        {
+            "name": "elpho/elpho",
+            "version": "0.1.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elpho/elpho.git",
+                "reference": "4c64b586f94f9a8f01c691abdc865352e3dc3418"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elpho/elpho/zipball/4c64b586f94f9a8f01c691abdc865352e3dc3418",
+                "reference": "4c64b586f94f9a8f01c691abdc865352e3dc3418",
+                "shasum": ""
+            },
+            "require": {
+                "elpho/lang": "0.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "elpho\\system\\": "src/system/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "The elpho framework core",
+            "time": "2016-10-10 16:24:35"
+        },
+        {
+            "name": "elpho/event",
+            "version": "0.1.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elpho/event.git",
+                "reference": "67f75af08408d82f3bd3d7f49906a07dd73f795a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elpho/event/zipball/67f75af08408d82f3bd3d7f49906a07dd73f795a",
+                "reference": "67f75af08408d82f3bd3d7f49906a07dd73f795a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "elpho\\event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "Event system for the elpho framework",
+            "time": "2016-10-10 13:09:03"
+        },
+        {
+            "name": "elpho/lang",
+            "version": "0.1.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elpho/lang.git",
+                "reference": "05c83f05b267cc7f2777a0f92743fc05179c1867"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elpho/lang/zipball/05c83f05b267cc7f2777a0f92743fc05179c1867",
+                "reference": "05c83f05b267cc7f2777a0f92743fc05179c1867",
+                "shasum": ""
+            },
+            "require": {
+                "elpho/event": "0.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "elpho\\lang\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "Language extensions for the elpho framework",
+            "time": "2016-10-10 13:37:18"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

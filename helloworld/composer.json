@@ -1,0 +1,12 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "elpho/elpho": "0.1.*",
+    "elpho/lang": "0.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "main\\": "./"
+    }
+  }
+}
