@@ -6,6 +6,13 @@
 
   class Home extends Controller{
     public static final function index($args){
+      //the View class uses helper classes
+      //by default you get the $url helper
+      //you can register the helper class by calling:
+      //View::addHelper("camelCased\\full\\path\\to\\class");
+      //helper classes have all methods static:
+      // $helperName::method(...)
+
       $view = new View("views/home/index.html.php");
       $view->render();
     }
