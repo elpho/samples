@@ -1,10 +1,10 @@
 <?php
   namespace main;
 
+  define('DEBUG', '1');
   require 'vendor/autoload.php';
 
-  define('DEBUG', '1');
-  require 'vendor/elpho/elpho/startup.php';
+  registerMain('main\\Index');
 
   class Index{
     /**

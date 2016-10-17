@@ -2,7 +2,7 @@
   namespace main;
 
   require 'vendor/autoload.php';
-  require 'vendor/elpho/elpho/startup.php';
+  registerMain('main\\Index');
 
   use elpho\mvc\Router;
   use main\controllers;

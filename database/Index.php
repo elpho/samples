@@ -2,7 +2,7 @@
   namespace main;
 
   require "vendor/autoload.php";
-  require "vendor/elpho/elpho/startup.php";
+  registerMain('main\\Index');
 
   class Index{
     public static final function main($args=array()){

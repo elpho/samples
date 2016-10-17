@@ -2,7 +2,7 @@
   namespace main;
 
   require 'vendor/autoload.php';
-  require 'vendor/elpho/elpho/startup.php';
+  registerMain('main\\HelloWorld');
 
   use elpho\lang\String;
 

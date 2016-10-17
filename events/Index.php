@@ -2,26 +2,26 @@
   namespace main;
 
   require "vendor/autoload.php";
-  require "vendor/elpho/elpho/startup.php";
+  registerMain('main\\Index');
 
   use elpho\lang\Object;
 
   class Index{
     public static final function main($args=array()){
-      //Creating a object with powers to dispatch events (extends php.event.EventDispatcher)
+      //Creating an object with powers to dispatch events (extends php.event.EventDispatcher)
       $dispatcher = new DispatcherHelper();
 
       //OPTION 1: Create a class to attach a method to the event
       $hardListener = new HardListener();
 
-      //OPTION 2: Creates an anonymous function to serve as event listener
+      //OPTION 2: Create an anonymous function to serve as event listener
       $dynamicListener = function($event){
         print("<pre>");
         print("DynamicListener ".get_class($event)."'s target is ".$event->getTarget());
         print("</pre>");
       };
 
-      //OPTION 3: Creates an dynamic object to attach a method to the event
+      //OPTION 3: Create a dynamic object to attach a method to the event
       $otherListener = new Object();
       $otherListener->ouvir = function($self, $event){
         print("<pre>");
