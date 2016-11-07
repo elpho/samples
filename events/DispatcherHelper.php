@@ -1,9 +1,9 @@
 <?php
   namespace main;
 
-  use elpho\lang\Object;
+  use elpho\lang\ProtoObject;
 
-  class DispatcherHelper extends Object{
+  class DispatcherHelper extends ProtoObject{
     public function DispatcherHelper(){}
 
     public function run(){

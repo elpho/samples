@@ -4,7 +4,7 @@
   require "vendor/autoload.php";
   registerMain('main\\Index');
 
-  use elpho\lang\Object;
+  use elpho\lang\ProtoObject;
 
   class Index{
     public static final function main($args=array()){
@@ -22,7 +22,7 @@
       };
 
       //OPTION 3: Create a dynamic object to attach a method to the event
-      $otherListener = new Object();
+      $otherListener = new ProtoObject();
       $otherListener->ouvir = function($self, $event){
         print("<pre>");
         print($self." listener method ".get_class($event)."'s target is ".$event->getTarget());

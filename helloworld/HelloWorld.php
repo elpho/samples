@@ -4,11 +4,11 @@
   require 'vendor/autoload.php';
   registerMain('main\\HelloWorld');
 
-  use elpho\lang\String;
+  use elpho\lang\Text;
 
   class HelloWorld{
     public static function main($args=array()){
-      $word = new String("hello world!");
+      $word = new Text("hello world!");
       print $word->capitalize();
     }
   }
