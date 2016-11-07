@@ -9,19 +9,20 @@
     "packages": [
         {
             "name": "elpho/database",
-            "version": "0.1.0-alpha2",
+            "version": "0.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/database.git",
-                "reference": "f2d52d9cf844771f69eda60ae0a09a0bde9baa2d"
+                "reference": "6f2f92560c2c05777ecf55674127d8f04151eda2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/database/zipball/f2d52d9cf844771f69eda60ae0a09a0bde9baa2d",
-                "reference": "f2d52d9cf844771f69eda60ae0a09a0bde9baa2d",
+                "url": "https://api.github.com/repos/elpho/database/zipball/6f2f92560c2c05777ecf55674127d8f04151eda2",
+                "reference": "6f2f92560c2c05777ecf55674127d8f04151eda2",
                 "shasum": ""
             },
             "require": {
+                "elpho/di": "0.1.*",
                 "elpho/event": "0.1.*",
                 "elpho/lang": "0.1.*"
             },
@@ -36,20 +37,50 @@
                 "ISC"
             ],
             "description": "ORM for the elpho framework",
-            "time": "2016-10-10 13:33:35"
+            "time": "2016-11-07 19:47:27"
         },
         {
-            "name": "elpho/elpho",
-            "version": "0.1.0-beta1",
+            "name": "elpho/di",
+            "version": "0.1.0-rc1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/elpho/elpho.git",
-                "reference": "ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2"
+                "url": "https://github.com/elpho/di.git",
+                "reference": "9d82f388ee6389f3dc98dd13b280598d51c48ef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/elpho/zipball/ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2",
-                "reference": "ed9889bd11dd5aaed97be0eb08e0e3acab49c9d2",
+                "url": "https://api.github.com/repos/elpho/di/zipball/9d82f388ee6389f3dc98dd13b280598d51c48ef4",
+                "reference": "9d82f388ee6389f3dc98dd13b280598d51c48ef4",
+                "shasum": ""
+            },
+            "require": {
+                "elpho/lang": "0.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "elpho\\di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "description": "Dependency injection engine for the elpho framework",
+            "time": "2016-11-07 19:48:03"
+        },
+        {
+            "name": "elpho/elpho",
+            "version": "0.1.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elpho/elpho.git",
+                "reference": "cc7449b6951d6eb412a791c0106db2ca02acabf5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elpho/elpho/zipball/cc7449b6951d6eb412a791c0106db2ca02acabf5",
+                "reference": "cc7449b6951d6eb412a791c0106db2ca02acabf5",
                 "shasum": ""
             },
             "require": {
@@ -69,11 +100,11 @@
                 "ISC"
             ],
             "description": "The elpho framework core",
-            "time": "2016-10-14 12:30:45"
+            "time": "2016-11-07 19:48:51"
         },
         {
             "name": "elpho/event",
-            "version": "0.1.0-alpha1",
+            "version": "0.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/event.git",
@@ -100,16 +131,16 @@
         },
         {
             "name": "elpho/lang",
-            "version": "0.1.0-alpha2",
+            "version": "0.1.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elpho/lang.git",
-                "reference": "05c83f05b267cc7f2777a0f92743fc05179c1867"
+                "reference": "601727def397223b417196e2c7b0cf2f895ac11c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elpho/lang/zipball/05c83f05b267cc7f2777a0f92743fc05179c1867",
-                "reference": "05c83f05b267cc7f2777a0f92743fc05179c1867",
+                "url": "https://api.github.com/repos/elpho/lang/zipball/601727def397223b417196e2c7b0cf2f895ac11c",
+                "reference": "601727def397223b417196e2c7b0cf2f895ac11c",
                 "shasum": ""
             },
             "require": {
@@ -126,7 +157,7 @@
                 "ISC"
             ],
             "description": "Language extensions for the elpho framework",
-            "time": "2016-10-10 13:37:18"
+            "time": "2016-11-07 20:38:34"
         }
     ],
     "packages-dev": [],
